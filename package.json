@@ -1,0 +1,37 @@
+{
+  "name": "primeaicore-p2p",
+  "version": "1.0.0",
+  "description": "Interface to the primeaicoin P2P network for primeaicore",
+  "author": "Under",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha",
+    "coverage": "nyc mocha"
+  },
+  "keywords": [
+    "primeaicoin",
+    "primeaicore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AIPowerGrid/primeaicore-p2p.git"
+  },
+  "dependencies": {
+    "bloom-filter": "^0.2.0",
+    "node-buffers": "github:underdarkskies/node-buffers",
+    "primeaicore-lib": "github:AIPowerGrid/primeaicore-lib",
+    "socks5-client": "^1.2.8"
+  },
+  "devDependencies": {
+    "brfs": "^1.6.1",
+    "chai": "~1.10.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "mocha": "^5.2.0",
+    "nyc": "^14.1.1",
+    "sinon": "^1.17.7"
+  },
+  "license": "MIT"
+}
