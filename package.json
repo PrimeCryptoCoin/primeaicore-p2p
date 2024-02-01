@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AIPowerGrid/primeaicore-p2p.git"
+    "url": "https://github.com/PrimeCryptoCoin/primeaicore-p2p.git"
   },
   "dependencies": {
     "bloom-filter": "^0.2.0",
     "node-buffers": "github:underdarkskies/node-buffers",
-    "primeaicore-lib": "github:AIPowerGrid/primeaicore-lib",
+    "primeaicore-lib": "github:PrimeCryptoCoin/primeaicore-lib",
     "socks5-client": "^1.2.8"
   },
   "devDependencies": {
